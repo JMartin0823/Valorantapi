@@ -3,7 +3,6 @@
 }
 
 .f3{
-    margin-top: 50px;
     background-size: cover;
 }
 #playnow{
@@ -22,12 +21,9 @@
     padding-left: 90px;
     padding-top: 30px;
     color: white;
-    
-   
-
 }
-#final{
-   
+
+#final{ 
     display: flex;
     text-align: center;
     justify-content: center;
@@ -38,10 +34,8 @@
     font-family: erda;
     padding-top: 100px;
     height: 200px;
-   word-spacing: 70px;
-   width: 100%;
-    
-
+    word-spacing: 70px;
+    width: 100%;
 }
 
 
@@ -154,15 +148,26 @@ color: #000000;
 }
 
 .row_poster:hover{
-    transform: scale(1.08);
+    transform: scale(1.00);
 }
 
 .row_posters::-webkit-scrollbar{
-    display: none;
+    width: 10px;
+    top: -20px;
+    background-color: #FF4655;
 }
 
+.row_posters::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+.row_posters::-webkit-scrollbar-thumb {
+    background-color: #1E1E1E;
+  }
+
 .row_posterLarge{
-    max-height: 250px;
+    max-height: 400px;
+    outline: 4px solid #ffffff;
 }
 
 .row_posterLarge:hover{
